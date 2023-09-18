@@ -235,6 +235,7 @@ resource "aws_route_table" "rtb" {
       #aws_subnet.pub_sub1,
       #aws_subnet.pub_sub2,
     ]
+  }
 
 #Kubectl server setup
     resource "aws_instance" "kubectl-server" {
